@@ -41,6 +41,7 @@
   box-sizing: border-box;
 }
 
+.img-back
 html {
   font-family: sans-serif;
   line-height: 1.15;
@@ -60,7 +61,6 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff;
 }
 
 [tabindex="-1"]:focus {
@@ -2756,35 +2756,35 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-success {
-  color: #28a745;
-  border-color: #28a745;
+  color: #cee5ec;
+  border-color: #cee5ec;
 }
 
 .btn-outline-success:hover {
-  color: #fff;
-  background-color: #28a745;
-  border-color: #28a745;
+  color: #cee5ec;
+  background-color: #001f3d;
+  border-color: #cee5ec;
 }
 
 .btn-outline-success:focus, .btn-outline-success.focus {
-  box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.5);
+  box-shadow: 0 0 0 0.2rem #00366b;
 }
 
 .btn-outline-success.disabled, .btn-outline-success:disabled {
-  color: #28a745;
+  color: #00366d;
   background-color: transparent;
 }
 
 .btn-outline-success:not(:disabled):not(.disabled):active, .btn-outline-success:not(:disabled):not(.disabled).active,
 .show > .btn-outline-success.dropdown-toggle {
   color: #fff;
-  background-color: #28a745;
-  border-color: #28a745;
+  background-color: #00366d;
+  border-color: #0054a8;
 }
 
 .btn-outline-success:not(:disabled):not(.disabled):active:focus, .btn-outline-success:not(:disabled):not(.disabled).active:focus,
 .show > .btn-outline-success.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.5);
+  box-shadow: 0 0 0 0.2rem #0051a1;
 }
 
 .btn-outline-info {
@@ -4058,6 +4058,7 @@ input[type="button"].btn-block {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+
 }
 
 .nav-link {
@@ -4077,6 +4078,7 @@ input[type="button"].btn-block {
 
 .nav-tabs {
   border-bottom: 1px solid #dee2e6;
+  
 }
 
 .nav-tabs .nav-item {
@@ -4167,6 +4169,7 @@ input[type="button"].btn-block {
   align-items: center;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  
 }
 
 .navbar-brand {
@@ -4174,9 +4177,11 @@ input[type="button"].btn-block {
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
-  font-size: 1.25rem;
-  line-height: inherit;
+  font-size: 2rem;
+  height: 4rem;
   white-space: nowrap;
+  
+
 }
 
 .navbar-brand:hover, .navbar-brand:focus {
@@ -4207,6 +4212,7 @@ input[type="button"].btn-block {
   display: inline-block;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+  
 }
 
 .navbar-collapse {
@@ -4216,6 +4222,7 @@ input[type="button"].btn-block {
   flex-grow: 1;
   -ms-flex-align: center;
   align-items: center;
+ 
 }
 
 .navbar-toggler {
@@ -6568,7 +6575,7 @@ button.bg-danger:focus {
 }
 
 .bg-light {
-  background-color: #f8f9fa !important;
+  background-color: #002c58 !important;
 }
 
 a.bg-light:hover, a.bg-light:focus,
